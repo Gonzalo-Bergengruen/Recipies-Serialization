@@ -16,7 +16,6 @@ namespace LibraryTests
         [Test]
         public void SerializeProductTest()
         {
-
             IJsonConvertible Product = new Product(description, unitCost);
             string actual = Product.ConvertToJson();
 
